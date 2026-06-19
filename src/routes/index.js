@@ -8,6 +8,6 @@ router.get("/health",(req,res)=>{
     });
 });
 
-router.use("/configuracion", require("../configuracion/configuracion.routes"));
+router.use("/fuentes", require("../fuentes/fuente.routes"));
 
 module.exports = router;
