@@ -9,5 +9,6 @@ router.get("/health",(req,res)=>{
 });
 
 router.use("/fuentes", require("../fuentes/fuente.routes"));
+router.use("/noticias", require("../noticias/noticia.routes"));
 
 module.exports = router;
